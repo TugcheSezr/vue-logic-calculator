@@ -14,10 +14,10 @@ Het doel van dit project is om mijn kennis van Vue.js te verbeteren en te leren 
 - Reset functie
 
 ## Gebruikte technologieën
-- Vue.js
-- JavaScript
-- HTML
-- CSS
+![Vue](https://img.shields.io/badge/Vue.js-42b883?style=for-the-badge&logo=vue.js&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML5-e34f26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572b6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Status
 Dit project is nog in ontwikkeling en wordt stap voor stap verbeterd.
