@@ -3,9 +3,9 @@
 
 <div class="calculator">
   <div class="display"> {{current || 0}} </div>
-  <div class="btn"> C </div>
-  <div class="btn"> +/- </div>
-  <div class="btn"> % </div>
+  <div @click="clear" class="btn"> C </div>
+  <div @click="sign" class="btn"> +/- </div>
+  <div @click="percent" class="btn"> % </div>
 
   <div class="btn operator"> ÷ </div>
 
@@ -33,6 +33,26 @@
 
 <script>
 export default {
+  data(){
+    return {
+      current: '1200',
+    }
+  },
+  methods: {
+
+  //We maken met clear function schoen
+  clear(){
+  this.current = '';
+        },
+
+  sign(){
+    this.current = this.current.charAt(0) === '-' ? 
+    this.current.slice(1) : `-${this.current}`;
+  },
+  percent(){
+    this.current = `${parseFloat(this.current) / 100}`;
+  }
+  }
 }
 </script>
 
